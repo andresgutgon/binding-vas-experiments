@@ -27732,7 +27732,7 @@ var React = require('react'),
 App = React.createClass({
   displayName: 'App',
   render: function() {
-    return (React.DOM.div({className: "wrapper"}, React.DOM.header(null, React.DOM.button({id: "button-full-screen"}, "Open Full Screen"), React.DOM.ul(null, React.DOM.li(null, Link({to: "/todos"}, "Todos")), React.DOM.li(null, Link({to: "/vas"}, "VAS")))), React.DOM.div({
+    return (React.DOM.div({className: "wrapper"}, React.DOM.header(null, React.DOM.button({id: "button-full-screen"}, "Open Full Screen"), React.DOM.ul(null, React.DOM.li(null, Link({to: "/todos"}, "Todos")), React.DOM.li(null, Link({to: "/demo-vas-task-global/vas"}, "VAS")))), React.DOM.div({
       id: "content",
       className: "content"
     }, this.props.activeRouteHandler(null))));
