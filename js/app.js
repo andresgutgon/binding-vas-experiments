@@ -27740,13 +27740,13 @@ App = React.createClass({
 });
 routes = (Routes({location: "history"}, Route({
   name: "app",
-  path: "/",
+  path: "/demo-vas-task-global/",
   handler: App
 }, Route({
-  name: "todos",
+  name: "/demo-vas-task-global/todos",
   handler: TodoListComponent
 }), Route({
-  name: "vas",
+  name: "/demo-vas-task-global/vas",
   handler: VasComponent
 }))));
 React.renderComponent(routes, document.body);
